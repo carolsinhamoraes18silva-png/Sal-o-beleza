@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Salão Beleza Perfeita</title>
+
+<style>
+:root{
+  --rosa:#d63384;
+  --rosa-claro:#fff0f6;
+  --cinza:#444;
+}
+
+body{
+  margin:0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background:var(--rosa-claro);
+  color:var(--cinza);
+}
+
+header{
+  background:linear-gradient(135deg,#d63384,#f06595);
+  color:#fff;
+  text-align:center;
+  padding:60px 20px;
+}
+
+header h1{
+  margin:0;
+  font-size:36px;
+}
+
+header p{
+  font-size:18px;
+  margin:10px 0 20px;
+}
+
+.btn{
+  background:#fff;
+  color:var(--rosa);
+  padding:14px 26px;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:600;
+  display:inline-block;
+}
+
+section{
+  max-width:1000px;
+  margin:auto;
+  padding:40px 20px;
+}
+
+.card{
+  background:#fff;
+  border-radius:16px;
+  padding:30px;
+  margin-bottom:25px;
+  box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+h2{
+  color:var(--rosa);
+  margin-top:0;
+}
+
+.services ul, .promo ul{
+  list-style:none;
+  padding:0;
+}
+
+.services li, .promo li{
+  display:flex;
+  justify-content:space-between;
+  padding:12px 0;
+  border-bottom:1px solid #eee;
+}
+
+.badge{
+  background:var(--rosa);
+  color:#fff;
+  padding:6px 12px;
+  border-radius:20px;
+  font-size:14px;
+}
+
+footer{
+  background:#222;
+  color:#fff;
+  text-align:center;
+  padding:20px;
+  font-size:14px;
+}
+
+/* RESPONSIVO */
+@media(max-width:600px){
+  header h1{font-size:28px;}
+  header p{font-size:16px;}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>✨ Salão Beleza Perfeita ✨</h1>
+  <p>Cuidado, estilo e autoestima em cada detalhe</p>
+  <a class="btn" href="https://wa.me/5599999999999">Agendar pelo WhatsApp</a>
+</header>
+
+<section>
+  <div class="card">
+    <h2>💇‍♀️ Sobre o Salão</h2>
+    <p>
+      Aqui sua beleza é prioridade. Trabalhamos com produtos de qualidade,
+      técnicas modernas e atendimento personalizado para realçar o melhor de você.
+    </p>
+  </div>
+
+  <div class="card services">
+    <h2>💅 Serviços & Valores</h2>
+    <ul>
+      <li><span>Corte feminino</span><strong>R$ 40</strong></li>
+      <li><span>Escova</span><strong>R$ 35</strong></li>
+      <li><span>Prancha</span><strong>R$ 25</strong></li>
+      <li><span>Alisamento</span><strong>A partir de R$ 120</strong></li>
+      <li><span>Hidratação</span><strong>R$ 50</strong></li>
+      <li><span>Design de sobrancelhas</span><strong>R$ 20</strong></li>
+      <li><span>Henna para sobrancelhas</span><strong>R$ 30</strong></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>⏰ Horário de Funcionamento</h2>
+    <p>
+      Segunda a Sexta: <strong>09h às 18h</strong><br>
+      Sábado: <strong>09h às 15h</strong><br>
+      Domingo: <strong>Fechado</strong>
+    </p>
+  </div>
+
+  <div class="card promo">
+    <h2>🔥 Promoções</h2>
+    <ul>
+      <li><span>Escova + Prancha</span><span class="badge">R$ 50</span></li>
+      <li><span>Primeira visita</span><span class="badge">10% OFF</span></li>
+      <li><span>Quartas da Beleza</span><span class="badge">Desconto Especial</span></li>
+    </ul>
+  </div>
+
+  <div class="card" style="text-align:center">
+    <h2>📲 Agende Agora</h2>
+    <p>Atendimento com hora marcada e resultados que encantam.</p>
+    <a class="btn" href="https://wa.me/5599999999999">Falar no WhatsApp</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 • Salão Beleza Perfeita • Todos os direitos reservados
+</footer>
+
+</body>
+    </html>
